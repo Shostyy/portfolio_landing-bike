@@ -1,7 +1,18 @@
-@import "utils";
-@import "fonts";
-@import "typography";
+@import "modules/normalize";
+@import "modules/reset";
+@import "modules/variables";
+@import "modules/mixins";
 
-body {
-  background: $c-gray;
-}
+@import "body";
+@import "header";
+@import "short-navigation";
+@import "page-navigation";
+@import "navigation";
+@import "information";
+@import "container";
+@import "main-block";
+@import "details";
+@import "product-card";
+@import "footer";
+@import "contact-us";
+@import "bottom-image";
